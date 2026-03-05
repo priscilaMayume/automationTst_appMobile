@@ -1,0 +1,17 @@
+{
+  "name": "automationtst_appmobile",
+  "version": "1.0.0",
+  "description": "Projetos de testes automatizados app Android-IOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps",
+    "ios": "PLATFORM=iOS APP='/Users/priscilahirotsu/pessoal/estudo/projetos/qaFood/qazandoapp.app' DEVICE='iPhone 15 Pro' VERSION='17.2' PACKAGE='com.qazandoapp' ACTIVITY='MainActivity' AUTOMATIONNAME='XCUITest' npx codeceptjs run --steps",
+    "android": "PLATFORM=Android APP='/Users/priscilahirotsu/pessoal/estudo/projetos/qaFood/qaZandoapp.apk' DEVICE='emulator-5554' VERSION='13.0' PACKAGE='com.qazandoapp' ACTIVITY='MainActivity' AUTOMATIONNAME='UiAutomator2' npx codeceptjs run --steps"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^3.7.6",
+    "webdriverio": "^7.34.0"
+  }
+}
