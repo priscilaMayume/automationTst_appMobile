@@ -1167,8 +1167,8 @@ body {
   <header class="report-header">
     <h1>CodeceptJS Test Report v3.7.6</h1>
     <div class="report-meta">
-      <span>Generated: 2026-03-05T14:46:55.118Z</span>
-      <span>Duration: 2ms</span>
+      <span>Generated: 2026-03-06T13:03:18.779Z</span>
+      <span>Duration: 24.54s</span>
     </div>
   </header>
 
@@ -1181,7 +1181,7 @@ body {
         </div>
         <div class="system-info-content" id="systemInfoContent">
           <div class="system-info-grid">
-            <div class="info-item"><span class="info-key">Node.js:</span> <span class="info-value">20.19.0</span></div><div class="info-item"><span class="info-key">OS:</span> <span class="info-value">macOS 26.3</span></div><div class="info-item"><span class="info-key">CPU:</span> <span class="info-value">(10) arm64 Apple M2 Pro</span></div><div class="info-item"><span class="info-key">Chrome:</span> <span class="info-value">145.0.7632.159</span></div><div class="info-item"><span class="info-key">Edge:</span> <span class="info-value">Not Found</span></div><div class="info-item"><span class="info-key">Safari:</span> <span class="info-value">26.3</span></div><div class="info-item"><span class="info-key">Playwright Browsers:</span> <span class="info-value"></span></div>
+            <div class="info-item"><span class="info-key">Node.js:</span> <span class="info-value">20.19.0</span></div><div class="info-item"><span class="info-key">OS:</span> <span class="info-value">macOS 26.3</span></div><div class="info-item"><span class="info-key">CPU:</span> <span class="info-value">(10) arm64 Apple M2 Pro</span></div><div class="info-item"><span class="info-key">Chrome:</span> <span class="info-value">145.0.7632.160</span></div><div class="info-item"><span class="info-key">Edge:</span> <span class="info-value">Not Found</span></div><div class="info-item"><span class="info-key">Safari:</span> <span class="info-value">26.3</span></div><div class="info-item"><span class="info-key">Playwright Browsers:</span> <span class="info-value"></span></div>
           </div>
         </div>
       </section>
@@ -1193,11 +1193,11 @@ body {
       <div class="stats-cards">
         <div class="stat-card total">
           <h3>Total</h3>
-          <span class="stat-number">0</span>
+          <span class="stat-number">2</span>
         </div>
         <div class="stat-card passed">
           <h3>Passed</h3>
-          <span class="stat-number">0</span>
+          <span class="stat-number">2</span>
         </div>
         <div class="stat-card failed">
           <h3>Failed</h3>
@@ -1217,7 +1217,7 @@ body {
         </div>
       </div>
       <div class="metrics-summary">
-        <span>Pass Rate: <strong>0.0%</strong></span>
+        <span>Pass Rate: <strong>100.0%</strong></span>
         <span>Fail Rate: <strong>0.0%</strong></span>
       </div>
       <div class="pie-chart-container">
@@ -1225,7 +1225,7 @@ body {
         <script>
           // Pie chart data will be rendered by JavaScript
           window.chartData = {
-            passed: 0,
+            passed: 2,
             failed: 0,
             pending: 0
           };
@@ -1300,7 +1300,163 @@ body {
         <section class="tests-section">
             <h2>Test Results</h2>
             <div class="tests-container">
-                <p>No tests found.</p>
+                
+          <section class="feature-group">
+            <h3 class="feature-group-title" onclick="toggleFeatureGroup('login')">
+              login
+              <span class="toggle-icon">▼</span>
+            </h3>
+            <div class="feature-tests" id="feature-login">
+              
+                  <div class="test-item passed" id="test-42d26325" data-feature="login" data-status="passed" data-tags="" data-retries="0" data-type="regular">
+                    <div class="test-header" onclick="toggleTestDetails('test-42d26325')">
+                      <span class="test-status passed">●</span>
+                      <div class="test-info">
+                        <h3 class="test-title">Login with sucess</h3>
+                        <div class="test-meta-line">
+                          
+                          <span class="test-uid">2G6Zav8HQZWJ1fmEJ6J4adrqL6dLmwGc726pANacad</span>
+                          <span class="test-duration">0ms</span>
+                          
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="test-details" id="details-test-42d26325">
+                      
+                      
+                      
+                      
+      <div class="metadata-section">
+        <h4>Metadata:</h4>
+        <div class="metadata-list"><div class="meta-item"><span class="meta-key">conditionalRetries:</span> <span class="meta-value">3</span></div></div>
+      </div>
+    
+                      
+                      
+                      
+                      
+      <div class="steps-section">
+        <h4>Steps:</h4>
+        <div class="steps-list">
+        <div class="step-item success">
+          <span class="step-status success">●</span>
+          <span class="step-title">I.click("~email")</span>
+          <span class="step-duration">824ms</span>
+        </div>
+      
+        <div class="step-item success">
+          <span class="step-status success">●</span>
+          <span class="step-title">I.clearField("~email")</span>
+          <span class="step-duration">1.60s</span>
+        </div>
+      
+        <div class="step-item success">
+          <span class="step-status success">●</span>
+          <span class="step-title">I.appendField("~email", "teste@teste.com")</span>
+          <span class="step-duration">1.74s</span>
+        </div>
+      
+        <div class="step-item success">
+          <span class="step-status success">●</span>
+          <span class="step-title">I.fillField("~senha", "123456")</span>
+          <span class="step-duration">2.84s</span>
+        </div>
+      
+        <div class="step-item success">
+          <span class="step-status success">●</span>
+          <span class="step-title">I.tap("~entrar")</span>
+          <span class="step-duration">645ms</span>
+        </div>
+      
+        <div class="step-item success">
+          <span class="step-status success">●</span>
+          <span class="step-title">I.waitForElement("~codigo", 3)</span>
+          <span class="step-duration">1.24s</span>
+        </div>
+      
+        <div class="step-item success">
+          <span class="step-status success">●</span>
+          <span class="step-title">I.seeElement("~codigo")</span>
+          <span class="step-duration">62ms</span>
+        </div>
+      </div>
+      </div>
+    
+                      
+                    </div>
+                  </div>
+                
+                  <div class="test-item passed" id="test-9cd550ac" data-feature="login" data-status="passed" data-tags="" data-retries="0" data-type="regular">
+                    <div class="test-header" onclick="toggleTestDetails('test-9cd550ac')">
+                      <span class="test-status passed">●</span>
+                      <div class="test-info">
+                        <h3 class="test-title">Login with error</h3>
+                        <div class="test-meta-line">
+                          
+                          <span class="test-uid">FRAbDcaqiRREfwnl39ZNpnqEda1CYZ17e3t2RSI0ve</span>
+                          <span class="test-duration">0ms</span>
+                          
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="test-details" id="details-test-9cd550ac">
+                      
+                      
+                      
+                      
+      <div class="metadata-section">
+        <h4>Metadata:</h4>
+        <div class="metadata-list"><div class="meta-item"><span class="meta-key">conditionalRetries:</span> <span class="meta-value">3</span></div></div>
+      </div>
+    
+                      
+                      
+                      
+                      
+      <div class="steps-section">
+        <h4>Steps:</h4>
+        <div class="steps-list">
+        <div class="step-item success">
+          <span class="step-status success">●</span>
+          <span class="step-title">I.fillField("~email", "teste@error.com")</span>
+          <span class="step-duration">2.47s</span>
+        </div>
+      
+        <div class="step-item success">
+          <span class="step-status success">●</span>
+          <span class="step-title">I.fillField("~senha", "123456")</span>
+          <span class="step-duration">2.23s</span>
+        </div>
+      
+        <div class="step-item success">
+          <span class="step-status success">●</span>
+          <span class="step-title">I.tap("~entrar")</span>
+          <span class="step-duration">627ms</span>
+        </div>
+      
+        <div class="step-item success">
+          <span class="step-status success">●</span>
+          <span class="step-title">I.waitForElement("~lognFail", 3)</span>
+          <span class="step-duration">274ms</span>
+        </div>
+      
+        <div class="step-item success">
+          <span class="step-status success">●</span>
+          <span class="step-title">I.seeElement("~lognFail")</span>
+          <span class="step-duration">442ms</span>
+        </div>
+      </div>
+      </div>
+    
+                      
+                    </div>
+                  </div>
+                
+            </div>
+          </section>
+        
             </div>
         </section>
 
@@ -1320,7 +1476,7 @@ body {
 
     <script>
         window.testData = {
-            stats: {"tests":0,"passes":0,"failures":0,"pending":0,"duration":2,"failedHooks":0,"flaky":0,"artifacts":0},
+            stats: {"tests":2,"passes":2,"failures":0,"pending":0,"duration":24544,"failedHooks":0,"flaky":0,"artifacts":0},
             history: []
         };
     </script>
